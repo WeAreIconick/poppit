@@ -1,0 +1,138 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "telex/block-poppit",
+  "version": "0.1.0",
+  "title": "Poppit",
+  "category": "widgets",
+  "icon": "megaphone",
+  "description": "Create high-converting pop-ups with advanced targeting, exit-intent detection, and email integration",
+  "example": {
+    "attributes": {
+      "popupType": "modal",
+      "triggerType": "time",
+      "triggerDelay": 5,
+      "title": "Subscribe to Our Newsletter",
+      "content": "Get the latest updates and exclusive content delivered to your inbox."
+    }
+  },
+  "attributes": {
+    "popupId": {
+      "type": "string",
+      "default": ""
+    },
+    "popupType": {
+      "type": "string",
+      "default": "modal"
+    },
+    "title": {
+      "type": "string",
+      "default": "Pop-up Title"
+    },
+    "content": {
+      "type": "string",
+      "default": "Your pop-up content goes here."
+    },
+    "triggerType": {
+      "type": "string",
+      "default": "time"
+    },
+    "triggerDelay": {
+      "type": "number",
+      "default": 3
+    },
+    "scrollDepth": {
+      "type": "number",
+      "default": 50
+    },
+    "exitIntent": {
+      "type": "boolean",
+      "default": false
+    },
+    "showCloseButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "overlayOpacity": {
+      "type": "number",
+      "default": 0.8
+    },
+    "emailEnabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "emailPlaceholder": {
+      "type": "string",
+      "default": "Enter your email address"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Subscribe"
+    },
+    "targeting": {
+      "type": "object",
+      "default": {
+        "pages": [],
+        "devices": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "userType": "all"
+      }
+    },
+    "animation": {
+      "type": "string",
+      "default": "fadeIn"
+    },
+    "width": {
+      "type": "string",
+      "default": "500px"
+    },
+    "height": {
+      "type": "string",
+      "default": "auto"
+    },
+    "position": {
+      "type": "string",
+      "default": "center"
+    },
+    "allowReset": {
+      "type": "boolean",
+      "default": false
+    },
+    "resetDelay": {
+      "type": "number",
+      "default": 60
+    }
+  },
+  "supports": {
+    "html": false,
+    "color": {
+      "background": true,
+      "text": true,
+      "gradients": true
+    },
+    "typography": {
+      "fontSize": true,
+      "fontFamily": true,
+      "lineHeight": true
+    },
+    "spacing": {
+      "padding": true,
+      "margin": true
+    },
+    "border": {
+      "radius": true,
+      "width": true,
+      "style": true,
+      "color": true
+    }
+  },
+  "textdomain": "poppit",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
