@@ -1,6 +1,6 @@
 === Poppit ===
 
-Contributors:      WordPress Telex
+Contributors:      iconick
 Tags:              popup, modal, lightbox, conversion, marketing, email, opt-in, exit-intent
 Tested up to:      6.8
 Stable tag:        0.1.0
