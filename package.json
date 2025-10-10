@@ -1,7 +1,7 @@
 {
     "name": "poppit",
     "version": "0.1.0",
-    "description": "Create high-converting pop-ups with advanced targeting, exit-intent detection, and email integration. Performance-optimized solution for modern WordPress websites.",
+    "description": "Build pop-ups that feel like helpful suggestions, not annoying interruptions",
     "author": "WordPress Telex",
     "license": "GPL-2.0-or-later",
     "main": "build/index.js",

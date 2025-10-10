@@ -6,7 +6,7 @@
     "title": "Poppit",
     "category": "widgets",
     "icon": "megaphone",
-    "description": "Create high-converting pop-ups with advanced targeting, exit-intent detection, and email integration",
+    "description": "Build pop-ups that feel like helpful suggestions, not annoying interruptions",
     "example": {
         "attributes": {
             "popupType": "modal",

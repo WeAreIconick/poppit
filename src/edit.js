@@ -27,7 +27,8 @@ import {
 	Button,
 	CheckboxControl,
 	ToolbarGroup,
-	ToolbarButton
+	ToolbarButton,
+	ExternalLink
 } from '@wordpress/components';
 
 import { useState, useEffect } from '@wordpress/element';
@@ -392,6 +393,15 @@ export default function Edit( { attributes, setAttributes } ) {
 						] }
 						onChange={ ( value ) => setAttributes( { targeting: { ...targeting, userType: value } } ) }
 					/>
+				</PanelBody>
+
+				<PanelBody title={ __( 'More Blocks by iconick', 'poppit' ) } initialOpen={ false }>
+					<p>
+						{ __( 'Think these ideas are wild? You ain\'t seen nothing yet.', 'poppit' ) }
+					</p>
+					<ExternalLink href="https://iconick.io/blocks/">
+						{ __( 'Click to enter the block wonderland', 'poppit' ) }
+					</ExternalLink>
 				</PanelBody>
 			</InspectorControls>
 

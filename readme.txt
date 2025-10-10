@@ -1,9 +1,9 @@
 === Poppit ===
 
 Contributors:      WordPress Telex
-Tags:              popup, modal, lightbox, conversion, marketing, email, opt-in, exit-intent
+Tags:              popup, modal, lightbox, conversion, marketing
 Tested up to:      6.8
-Stable tag:        0.1.0
+Stable tag:        1.0.0
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,7 +89,7 @@ Yes. The plugin includes CSV export functionality for all captured email address
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.0.0 =
 * Initial release with core pop-up functionality
 * Native Gutenberg block integration
 * Advanced trigger system (exit-intent, scroll, time-based)
